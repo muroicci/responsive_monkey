@@ -1,0 +1,349 @@
+/* line 17, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url(EBGaramond12-Regular.woff);
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url(EBGaramond08-Regular.woff);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  src: url(EBGaramond12-Italic.woff);
+  font-style: italic;
+}
+
+/* line 24, ../../src/sass/style.scss */
+body {
+  font-family: "EB Garamond", serif;
+}
+
+/* line 29, ../../src/sass/style.scss */
+#main_wrapper {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  position: absolute;
+  text-align: center;
+  overflow: hidden;
+}
+/* line 40, ../../src/sass/style.scss */
+#main_wrapper #content_wrapper {
+  position: absolute;
+  width: 320px;
+  height: 480px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  text-align: center;
+}
+
+/* line 53, ../../src/sass/style.scss */
+header {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  margin: auto;
+}
+/* line 59, ../../src/sass/style.scss */
+header h1 {
+  color: #623b24;
+  margin-bottom: 5px;
+  font-size: 1em;
+  font-weight: bold;
+}
+/* line 66, ../../src/sass/style.scss */
+header p {
+  font-size: 1em;
+  font-style: italic;
+  color: #623b24;
+}
+/* line 71, ../../src/sass/style.scss */
+header p a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 74, ../../src/sass/style.scss */
+header p a:hover {
+  text-decoration: underline;
+}
+
+/* line 81, ../../src/sass/style.scss */
+#instruction {
+  color: #623b24;
+  font-size: 1em;
+  font-style: italic;
+}
+
+/* line 87, ../../src/sass/style.scss */
+article {
+  display: none;
+}
+/* line 91, ../../src/sass/style.scss */
+article h1 {
+  font-size: 1.8em;
+  color: #623b24;
+  margin-bottom: 10px;
+}
+/* line 96, ../../src/sass/style.scss */
+article p {
+  font-size: 1.4em;
+  color: #623b24;
+  margin-top: -5px;
+}
+/* line 102, ../../src/sass/style.scss */
+article figure {
+  width: 240px;
+  height: 320px;
+  margin: auto;
+}
+
+/*
+* From css-tricks.com
+* http://css-tricks.com/snippets/css/media-queries-for-standard-devices/
+*/
+/* iPads (portrait and landscape) ----------- */
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* line 161, ../../src/sass/style.scss */
+  #tablet_landscape {
+    display: block;
+  }
+
+  /* line 181, ../../src/sass/style.scss */
+  #tablet2 {
+    display: none !important;
+  }
+}
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 155, ../../src/sass/style.scss */
+  #tablet2 {
+    display: block;
+  }
+
+  /* line 192, ../../src/sass/style.scss */
+  #tablet1 {
+    display: none !important;
+  }
+}
+/* iPhone----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  /* line 206, ../../src/sass/style.scss */
+  header h1 {
+    display: inline-block;
+  }
+  /* line 209, ../../src/sass/style.scss */
+  header p {
+    display: inline-block;
+  }
+
+  /* line 145, ../../src/sass/style.scss */
+  #phone_landscape {
+    display: block;
+  }
+  /* line 147, ../../src/sass/style.scss */
+  #phone_landscape h1 {
+    margin-top: -30px;
+  }
+
+  /* line 215, ../../src/sass/style.scss */
+  #instruction {
+    display: none;
+  }
+
+  /* line 218, ../../src/sass/style.scss */
+  #phone {
+    display: none !important;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  /* line 239, ../../src/sass/style.scss */
+  header h1 {
+    display: inline-block;
+  }
+  /* line 242, ../../src/sass/style.scss */
+  header p {
+    display: inline-block;
+  }
+
+  /* line 246, ../../src/sass/style.scss */
+  #instruction {
+    display: none;
+  }
+
+  /* line 136, ../../src/sass/style.scss */
+  #phone {
+    display: block;
+  }
+  /* line 138, ../../src/sass/style.scss */
+  #phone h1 {
+    margin-top: -30px;
+  }
+}
+/* Old smartphone ----------- */
+/* Smartphones (portrait-landscape) ----------- */
+@media only screen and (max-width: 640px) {
+  /* line 136, ../../src/sass/style.scss */
+  #phone {
+    display: block;
+  }
+  /* line 138, ../../src/sass/style.scss */
+  #phone h1 {
+    margin-top: -30px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 640px) and (orientation: landscape) {
+  /* line 289, ../../src/sass/style.scss */
+  header h1 {
+    display: inline-block;
+  }
+  /* line 292, ../../src/sass/style.scss */
+  header p {
+    display: inline-block;
+  }
+
+  /* line 145, ../../src/sass/style.scss */
+  #phone_landscape {
+    display: block;
+  }
+  /* line 147, ../../src/sass/style.scss */
+  #phone_landscape h1 {
+    margin-top: -30px;
+  }
+
+  /* line 297, ../../src/sass/style.scss */
+  #instruction {
+    display: none;
+  }
+
+  /* line 300, ../../src/sass/style.scss */
+  #phone {
+    display: none !important;
+  }
+}
+/* Phone - Tablet 1 ----------- */
+@media only screen and (min-width: 641px) and (max-width: 704px) {
+  /* line 309, ../../src/sass/style.scss */
+  #tablet_phone1 {
+    display: block;
+  }
+}
+/* Phone - Tablet 2 ----------- */
+@media only screen and (min-width: 705px) and (max-width: 767px) {
+  /* line 318, ../../src/sass/style.scss */
+  #tablet_phone2 {
+    display: block;
+  }
+}
+/* Tablet (Portrait) ----------- */
+@media only screen and (min-width: 768px) and (max-width: 896px) {
+  /* line 328, ../../src/sass/style.scss */
+  #tablet1 {
+    display: block;
+  }
+}
+/* Tablet (Landscape)----------- */
+@media only screen and (min-width: 897px) and (max-width: 1024px) {
+  /* line 155, ../../src/sass/style.scss */
+  #tablet2 {
+    display: block;
+  }
+}
+@media only screen and (min-width: 897px) and (max-width: 1024px) and (orientation: landscape) {
+  /* line 161, ../../src/sass/style.scss */
+  #tablet_landscape {
+    display: block;
+  }
+
+  /* line 347, ../../src/sass/style.scss */
+  #tablet2 {
+    display: none !important;
+  }
+}
+/* Tablet - Desktop 2 ----------- */
+@media only screen and (min-width: 1025px) and (max-width: 1279px) {
+  /* line 356, ../../src/sass/style.scss */
+  #laptop {
+    display: block;
+  }
+}
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1280px) {
+  /* line 365, ../../src/sass/style.scss */
+  #desktop {
+    display: block;
+  }
+}
